@@ -1,0 +1,104 @@
+
+        body {
+            margin: 0;
+            font-family:'Times New Roman', Times, serif;
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/34/747/591/man-made-scales-wallpaper-preview.jpg'); /* Replace with your law-themed background image URL */
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: rgb(0, 0, 0);
+        }
+        .profile-section {
+            text-align: center;
+            margin: 50px;
+            background: rgba(119, 117, 117, 0.7);
+            padding: 20px;
+            border-radius: 15px;
+            color:blanchedalmond
+        }
+        .profile-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .profile-section h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+        .profile-section p {
+            font-size: 1.2rem;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(224, 20, 20, 0.8);
+            color: rgb(0, 0, 0);
+        }
+        .form-container{
+          
+            color:balck;
+        }
+        
+        .form-container {
+             max-width: 500px; margin: 20px auto;
+              padding: 20px; 
+              border: 1px solid #ccc; 
+              border-radius: 8px; 
+              background-color: rgba(77, 76, 76, 0.8); /* Semi-transparent white background */
+              color: white; /* Text color */
+            }
+
+      .form-container input[type="text"]{
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+     .form-container h2 {
+        text-align: center;
+        text-decoration:solid underline;
+     }
+
+
+
+
+
+        select, input { width: 100%; padding: 10px; margin: 10px 0; }
+        .price-display { font-size: 18px; font-weight: bold; color: green; }
+        .submit-button:hover
+         { background-color: #4CAF50; color: white; cursor: pointer; }
+        .submit-button {
+            background-color: #008CBA; /* Blue */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        /* set form-container to center  */
+        .cont_form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .button{
+            border:5px outset black ;
+            box-shadow: 0px 5px 5px black;
+        }
+        .button:hover{
+            background-color: #4CAF50; /* Green */
+            color: white;
+            cursor: pointer;
+        }
+        .button:active{
+            background-color: #3e8e41; /* Darker green */
+            box-shadow: 0px 5px 5px black;
+            transform: translateY(4px);
+        }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Advice
+     
+         </title>
+    <link rel="icon" href="https://image.similarpng.com/file/similarpng/very-thumbnail/2021/06/Lawyer-and-Law-Firm-Logo-template-on-transparent-background-PNG.png" type="image/x-icon"> <!-- Replace 'your-icon.png' with your actual icon URL -->
+
+    
+    
+</head>
+<script src="./script.js"></script>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="profile-section">
+        <img src="./profile_pic/WhatsApp Image 2025-04-13 at 20.01.03_5fb31312.jpg" alt="Profile Picture"> <!-- Replace 'your-profile-pic.jpg' with your actual profile picture URL -->
+        <h1>MITESH KUMAR SAKAR </h1>
+        <p> Advocate | Legal Consultant </p>
+        <p>Welcome to my legal advice platform. I’m here to assist you with professional legal solutions. With more than 25 years of legal practices </p>
+    </div>
+    <div class="form-container">
+        <h2>Query Form</h2>
+        <input type="text" name="" id="name" placeholder="Enter your name" required>
+        <label for="reason">Select Reason:</label>
+        <select id="reason" onchange="updatePrice()">
+            <option value="" disabled selected>Choose...</option>
+            <option value="Contract Advice">Contract Advice</option>
+            <option value="Property Dispute">Property Dispute</option>
+            <option value="Family Law">Family Law</option>
+            <option value="Company related problem {Company Law}">Company related problem {Company Law} </option>
+            <option value="Labour related problem {Labour Law}">Labour related problem {Labour Law} </option>
+
+        </select>
+     
+        <div class="price-display" id="price"></div>
+        <p class="submit">
+            <input type="submit" value="Submit" class="submit-button" id="submit" onclick="form_display()" style="display:none">
+           
+            
+        </p>
+    </div>
+ <div id="form" class="cont_form"></div>
+
+    <div class="footer">
+        &copy; 2025 Mitsh kumar sarak | Legal Advice Website 
+    </div>
+</body>
+</html>
